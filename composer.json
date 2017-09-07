@@ -1,5 +1,5 @@
 {
-    "name": "drupal-composer/drupal-project",
+    "name": "cqd/drupal-project",
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0+",
@@ -12,6 +12,10 @@
     "repositories": [
         {
             "type": "composer",
+            "url": "~/drupal-project"
+        }
+        {
+            "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
     ],
@@ -19,8 +23,14 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
+        "drupal/admin_toolbar": "^1.19",
         "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
+        "drupal/ctools": "^3.0",
+        "drupal/module_filter": "^3.0",
+        "drupal/pathauto": "^1.0",
+        "drupal/redirect": "^1.0@beta",
+        "drupal/token": "^1.0",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
@@ -28,6 +38,8 @@
     "require-dev": {
         "behat/mink": "~1.7",
         "behat/mink-goutte-driver": "~1.2",
+        "drupal/devel": "^1.0",
+        "drupal/masquerade": "^2.0@beta",
         "jcalderonzumba/gastonjs": "~1.0.2",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsstream": "~1.2",
