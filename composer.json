@@ -12,10 +12,6 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "~/drupal-project"
-        }
-        {
-            "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
     ],
