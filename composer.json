@@ -29,6 +29,7 @@
         "drupal/pathauto": "^1.0",
         "drupal/redirect": "^1.0@beta",
         "drupal/token": "^1.0",
+        "drupal/zurb_foundation": "6.x-dev",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
